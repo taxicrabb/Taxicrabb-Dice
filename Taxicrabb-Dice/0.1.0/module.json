@@ -1,0 +1,21 @@
+{
+  "name": "taxicrabb-dice",
+  "title": "Taxicrabb dice",
+  "description": "Adds a bunch of dice textures to DsN.",
+  "author": "taxicrab",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.8.4",
+  "compatibleCoreVersion": "9",
+  "dependencies": [
+        {
+            "type": "module",
+            "name": "dice-so-nice"
+        }
+    ],
+  "scripts": [
+        "scripts/taxicrabb-dice.json"
+  ],
+  "url": "https://github.com/telmo-correa/foundryvtt-entice-with-dice-so-nice",
+  "manifest": "https://raw.githubusercontent.com/telmo-correa/foundryvtt-entice-with-dice-so-nice/main/entice-with-dice-so-nice/0.0.16/module.json",
+  "download": "https://github.com/telmo-correa/foundryvtt-entice-with-dice-so-nice/raw/main/0.0.16/module.zip"
+}
