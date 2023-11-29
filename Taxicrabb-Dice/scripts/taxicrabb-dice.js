@@ -1,20 +1,20 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
 
 	dice3d.addTexture("Mapleleaf", {
-	    name: "⧋ Maple Leaf",
+	    name: "🦀 Maple Leaf",
 	    composite: "multiply",
 	    source: "modules/taxicrabb-dice/textures/Mapleleaftext.webp",
 	    bump: "modules/taxicrabb-dice/textures/Mapleleaftext.webp"
 	});
 	
  	dice3d.addTexture("Cherryblossom", {
-	    name: "⧋ Cherryblossom",
-	    composite: "overlay",
-	    source: "modules/taxicrabb-dice/textures/CherryBlossom.webp",
-        bump: "modules/taxicrabb-dice/textures/CherryBlossomB.webp"
+	    name: "🦀 Cherryblossom",
+	    composite: "difference",
+	    source: "modules/taxicrabb-dice/textures/CherryBlossomB.webp",
+        bump: "modules/taxicrabb-dice/textures/CherryBlossom.webp"
 	});
 
-  dice3d.addSystem({id:"Rollplayer1",name:"⧋ Rollplayer1 (d20, 20 best)"},false);
+  dice3d.addSystem({id:"Rollplayer1",name:"🦀 Rollplayer1 (d20, 20 best)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
@@ -25,7 +25,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     system:"Rollplayer1"
   });
 	
-  dice3d.addSystem({id:"uwu",name:"⧋ UWU (d20, 20 best)"},false);
+  dice3d.addSystem({id:"uwu",name:"🦀 UWU (d20, 20 best)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
@@ -36,7 +36,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     system:"uwu"
   });
 
-  dice3d.addSystem({id:"Wolf",name:"⧋ Werewolf (d20)"},false);
+  dice3d.addSystem({id:"Wolf",name:"🦀 Werewolf (d20)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
@@ -47,8 +47,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     system:"Wolf"
   });
 
-
-  dice3d.addSystem({id:"Goat",name:"⧋ Goat (d20)"},false);
+  dice3d.addSystem({id:"Goat",name:"🦀 Goat (d20)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
@@ -57,6 +56,28 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       'modules/taxicrabb-dice/faces/goatd20.webp'
     ],
     system:"Goat"
+  });
+
+  dice3d.addSystem({id:"Raven1",name:"🦀 Raven1 (d20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'Caw','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/taxicrabb-dice/faces/Raven1d20.webp'
+    ],
+    system:"Raven1"
+  });
+	
+  dice3d.addSystem({id:"Raven2",name:"🦀 Raven2 (d20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'Caw','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/taxicrabb-dice/faces/Raven2d20.webp'
+    ],
+    system:"Raven2"
   });
 	
 });
