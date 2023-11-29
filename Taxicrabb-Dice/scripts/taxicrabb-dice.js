@@ -9,9 +9,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	
  	dice3d.addTexture("Cherryblossom", {
 	    name: "🦀 Cherryblossom",
-	    composite: "difference",
+	    composite: "multiply",
 	    source: "modules/taxicrabb-dice/textures/CherryBlossomB.webp",
-        bump: "modules/taxicrabb-dice/textures/CherryBlossom.webp"
+        bump: "modules/taxicrabb-dice/textures/CherryBlossomB2.webp"
+	});
+
+ 	dice3d.addTexture("Cherryblossom2", {
+	    name: "🦀 Cherryblossom2",
+	    composite: "difference",
+	    source: "modules/taxicrabb-dice/textures/CherryBlossomdiff.webp",
 	});
 
   dice3d.addSystem({id:"Rollplayer1",name:"🦀 Rollplayer1 (d20, 20 best)"},false);
