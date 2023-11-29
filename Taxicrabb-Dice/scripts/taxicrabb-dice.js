@@ -13,7 +13,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       'No','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/taxicrabb-dice/faces/RP1.webp'
+      'modules/taxicrabb-dice/faces/RollP1.webp'
     ],
     system:"Rollplayer1"
   });
