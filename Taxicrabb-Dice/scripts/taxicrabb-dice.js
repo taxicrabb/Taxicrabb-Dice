@@ -7,7 +7,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	    bump: "modules/taxicrabb-dice/textures/Mapleleaftext.webp"
 	});
 
-	  dice3d.addSystem({id:"Rollplayer1",name:"⧋ Rollplayer1 (d20, 20 best)"},false);
+  dice3d.addSystem({id:"Rollplayer1",name:"⧋ Rollplayer1 (d20, 20 best)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
