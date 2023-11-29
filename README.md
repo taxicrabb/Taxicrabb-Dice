@@ -8,7 +8,7 @@ ntice with Dice so Nice
 
 Link(s) to Module
 
-    This github*** do later
+    https://github.com/taxicrabb/Taxicrabb-Dice/tree/main
 
 Link to Dependency
 
