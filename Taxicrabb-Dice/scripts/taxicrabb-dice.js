@@ -8,8 +8,8 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	});
 	
  	dice3d.addTexture("Cherryblossom", {
-	    name: "⧋ Maple Leaf",
-	    composite: "mulitply",
+	    name: "⧋ Cherryblossom",
+	    composite: "overlay",
 	    source: "modules/taxicrabb-dice/textures/CherryBlossom.webp",
         bump: "modules/taxicrabb-dice/textures/CherryBlossomB.webp"
 	});
