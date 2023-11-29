@@ -17,4 +17,16 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     ],
     system:"Rollplayer1"
   });
+	
+  dice3d.addSystem({id:"uwu",name:"⧋ UWU (d20, 20 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'QwQ','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'UwU'
+    ],
+    system:"uwu"
+  });
+	
 });
