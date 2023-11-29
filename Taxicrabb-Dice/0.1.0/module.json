@@ -23,7 +23,7 @@
     ]
   },
   "scripts": [
-    "scripts/entice-with-dice-so-nice.js"
+    "scripts/taxicrabb-dice.js"
   ],
   "url": "https://github.com/taxicrabb/Taxicrabb-Dice",
   "manifest": "https://github.com/taxicrabb/Taxicrabb-Dice/raw/main/Taxicrabb-Dice/0.1.0/module.json",
