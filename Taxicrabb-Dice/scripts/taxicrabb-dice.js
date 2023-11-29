@@ -30,12 +30,23 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'QwQ','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'UwU'
+      'modules/taxicrabb-dice/faces/qwqd20.webp','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/taxicrabb-dice/faces/uwud20.webp'
     ],
     system:"uwu"
   });
+	
+  dice3d.addSystem({id:"qwq",name:"🦀 UWU (d20, 1 best)"},false);
 
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/taxicrabb-dice/faces/uwud20.webp','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/taxicrabb-dice/faces/qwqd20.webp'
+    ],
+    system:"qwq"
+  });
+	
   dice3d.addSystem({id:"Wolf",name:"🦀 Werewolf (d20)"},false);
 
   dice3d.addDicePreset({
