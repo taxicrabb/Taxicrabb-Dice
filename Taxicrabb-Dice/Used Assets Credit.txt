@@ -1,2 +1,7 @@
 Textures:
 
+Falling Cherry Blossom: "https://www.freepik.com/free-vector/falling-pink-sakura-petals-realistic-illustration_7251948.htm#query=cherry%20blossom&position=5&from_view=keyword&track=ais&uuid=d4df7d91-47d4-4d4a-ae97-c0dc218e2cbb" Image by macrovector on Freepik
+Cherry Blossom: "https://www.freepik.com/free-vector/large-collection-flowers-cherry_1054710.htm#page=2&query=cherry%20blossom&position=12&from_view=keyword&track=ais&uuid=eecf00c0-2ae1-473f-a86e-5a28685f0781" Freepik
+
+Faces:
+Goat: "https://www.freepik.com/free-vector/goat-illustration-designs-logo_35668333.htm#query=goat&position=20&from_view=search&track=sph&uuid=b5596763-8fbc-458c-a077-79488e5140b9" Image by logturnal on Freepik
