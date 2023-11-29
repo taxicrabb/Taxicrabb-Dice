@@ -6,6 +6,13 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	    source: "modules/taxicrabb-dice/textures/Mapleleaftext.webp",
 	    bump: "modules/taxicrabb-dice/textures/Mapleleaftext.webp"
 	});
+	
+ 	dice3d.addTexture("Cherryblossom", {
+	    name: "⧋ Maple Leaf",
+	    composite: "mulitply",
+	    source: "modules/taxicrabb-dice/textures/CherryBlossom.webp",
+        bump: "modules/taxicrabb-dice/textures/CherryBlossomB.webp"
+	});
 
   dice3d.addSystem({id:"Rollplayer1",name:"⧋ Rollplayer1 (d20, 20 best)"},false);
 
