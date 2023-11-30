@@ -120,12 +120,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       'modules/nice-more-dice/faces/tome/d4-3.webp',
       'modules/nice-more-dice/faces/tome/d4-4.webp',
     ],
-    bumpMaps:[
-      'modules/nice-more-dice/faces/tome/4B.webp',
-      'modules/nice-more-dice/faces/tome/4B.webp',
-      'modules/nice-more-dice/faces/tome/4B.webp',
-      'modules/nice-more-dice/faces/tome/4B.webp'
-    ],
 	system:"tome"
   });
 });
