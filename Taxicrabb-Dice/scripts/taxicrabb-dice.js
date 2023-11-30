@@ -110,4 +110,22 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     system:"Raven2"
   });
 	
+ dice3d.addSystem({id:"tome",name:"🦀 Tome (d4)"},false);
+
+  dice3d.addDicePreset({
+    type:"d4",
+    labels:[
+      'modules/nice-more-dice/faces/tome/d4-1.webp',
+      'modules/nice-more-dice/faces/tome/d4-2.webp',
+      'modules/nice-more-dice/faces/tome/d4-3.webp',
+      'modules/nice-more-dice/faces/tome/d4-4.webp',
+    ],
+    bumpMaps:[
+      'modules/nice-more-dice/faces/tome/4B.webp',
+      'modules/nice-more-dice/faces/tome/4B.webp',
+      'modules/nice-more-dice/faces/tome/4B.webp',
+      'modules/nice-more-dice/faces/tome/4B.webp'
+    ],
+	system:"tome"
+  });
 });
