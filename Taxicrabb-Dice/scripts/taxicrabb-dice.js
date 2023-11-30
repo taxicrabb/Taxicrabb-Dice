@@ -29,7 +29,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	
  	dice3d.addTexture("Colorvary", {
 	    name: "🦀 Colorvary",
-	    composite: "screen",
+	    composite: "add",
 	    source: "modules/taxicrabb-dice/textures/colorvary.png",
 	});
 	
