@@ -109,10 +109,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d4",
     labels:[
-      'modules/nice-more-dice/faces/tome/d4-1.webp',
-      'modules/nice-more-dice/faces/tome/d4-2.webp',
-      'modules/nice-more-dice/faces/tome/d4-3.webp',
-      'modules/nice-more-dice/faces/tome/d4-4.webp',
+      'modules/taxicrabb-dice/faces/tome/d4-1.webp',
+      'modules/taxicrabb-dice/faces/tome/d4-2.webp',
+      'modules/taxicrabb-dice/faces/tome/d4-3.webp',
+      'modules/taxicrabb-dice/faces/tome/d4-4.webp',
     ],
 	system:"tome"
   });
