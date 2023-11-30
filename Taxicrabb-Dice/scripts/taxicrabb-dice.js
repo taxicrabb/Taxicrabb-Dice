@@ -104,16 +104,4 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     system:"Raven2"
   });
 	
- dice3d.addSystem({id:"tome",name:"🦀 Tome (d4)"},false);
-
-  dice3d.addDicePreset({
-    type:"d4",
-    labels:[
-      'modules/taxicrabb-dice/faces/tome/d4-b.webp',
-      'modules/taxicrabb-dice/faces/tome/d4-2.webp',
-      'modules/taxicrabb-dice/faces/tome/d4-3.webp',
-      'modules/taxicrabb-dice/faces/tome/d4-4.webp',
-    ],
-	system:"tome"
-  });
 });
