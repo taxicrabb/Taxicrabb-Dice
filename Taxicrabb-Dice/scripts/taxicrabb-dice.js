@@ -27,12 +27,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         bump: "modules/taxicrabb-dice/textures/sparklecore.webp"
 	});
 	
- 	dice3d.addTexture("Colorvary", {
-	    name: "🦀 Colorvary",
-	    composite: "add",
-	    source: "modules/taxicrabb-dice/textures/colorvary.png",
-	});
-	
   dice3d.addSystem({id:"Rollplayer1",name:"🦀 Rollplayer1 (d20, 20 best)"},false);
 
   dice3d.addDicePreset({
