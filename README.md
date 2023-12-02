@@ -1,4 +1,4 @@
-ntice with Dice so Nice
+Taxicrabb Dice
 
     Author: Taxicrabb
     Version: 0.1.0
