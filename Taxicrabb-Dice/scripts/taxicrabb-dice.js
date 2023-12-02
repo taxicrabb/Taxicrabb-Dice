@@ -27,24 +27,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	    source: "modules/taxicrabb-dice/textures/sparklecore.webp",
         bump: "modules/taxicrabb-dice/textures/sparklecore.webp"
 	});
-
- 	dice3d.addTexture("Sparklecore metal", {
-	    name: "🦀 Sparklecore metal",
-	    composite: "multiply",
-	    source: "modules/taxicrabb-dice/textures/sparklecore.webp",
-        bump: "modules/taxicrabb-dice/textures/sparklecore.webp"
-	});
-	    .then(() => {
-      dice3d.addColorset({
-        name: 'Sparklecore metal',
-        description: "🦀 Sparklecore metal",
-        background: "#3b3c50",
-		foreground: '#949494',
-		outline: '#260000',
-        edge: '#1a1b24',
-		material: 'metal',
-      },"default");
-    });
 	
   dice3d.addSystem({id:"Rollplayer1",name:"🦀 Rollplayer1 (d20, 20 best)"},false);
 
