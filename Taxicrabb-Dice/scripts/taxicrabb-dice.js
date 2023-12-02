@@ -11,7 +11,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
  	dice3d.addTexture("Cherryblossom", {
 	    name: "🦀 Cherryblossom",
 	    composite: "multiply",
-	    source: "modules/taxicrabb-dice/textures/CherryBlossomdiff.webp",
+	    source: "modules/taxicrabb-dice/textures/CherryBlossom.webp",
         bump: "modules/taxicrabb-dice/textures/CherryBlossomB2.webp"
 	});
 
